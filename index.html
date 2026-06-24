@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Movie Review — ภาพยนตร์และซีรี่ส์ของฉัน</title>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=Noto+Sans+Thai:wght@300;400;500;600&family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
+
+</head>
+<body>
+
+<!-- ═══ HEADER ═══ -->
+<header>
+  <div class="hd">
+    <div class="logo">[ <em>Movie</em> Review ]</div>
+    <nav class="nav">
+      <a href="#movies">ภาพยนตร์</a>
+      <a href="#series">ซีรี่ส์</a>
+      <button class="btn-toggle" id="themeBtn" onclick="toggleTheme()">🌙โหมดมืด</button>
+    </nav>
+  </div>
+</header>
+
+<!-- ═══ HERO ═══ -->
+<section class="hero">
+  <div class="film-bar top" id="fTop"></div>
+  <p class="hero-eyebrow">บันทึกส่วนตัว · รีวิวภาพยนตร์และซีรี่ส์</p>
+  <h1 class="hero-title">Movie<br><em>Review</em></h1>
+  <p class="hero-sub">ภาพยนตร์ และ ซีรี่ส์ที่ฉันแนะนำ</p>
+  <div class="hero-pills">
+    <div class="pill">ภาพยนตร์<strong>4</strong></div>
+    <div class="pill">ซีรี่ส์<strong>3</strong></div>
+  </div>
+  <div class="film-bar bot" id="fBot"></div>
+</section>
+
+<!-- ═══ RECOMMENDED MOVIES ═══ -->
+<section class="wrap" id="movies">
+  <div class="sec-head">
+    <h2 class="sec-title">ภาพยนตร์</h2>
+    <span class="sec-sub">Recommended Films</span>
+  </div>
+
+  <div class="grid">
+
+    <!-- ── M1: Until We Meet Again ── -->
+    <article class="card">
+      <div class="poster">
+        <img src="https://hodonaku-movie.toho.co.jp/images/og3b.png" style="max-width: 1900px; height: 887px; margin: 0px 0px; width: 527px;">
+        <span class="badge-genre">Romance / Drama</span>
+        <div class="score">IMDb 7.2</div>
+      </div>
+      <div class="cbody">
+        <div class="ctitle">Until We Meet Again</div>
+        <div class="ctitle-th">แด่การจากลา… จนกว่าจะพบกันใหม่</div>
+        <div class="poster-year">2026 · Romance / Drama · ญี่ปุ่น</div>
+        <div class="ratings">
+          <div class="ri">
+            <span class="rl">นักแสดง</span>
+            <span class="rv">ฮามาเบะ มินามิ</span>
+          </div>
+          <div class="ri">
+            <span class="rl">คะแนนส่วนตัว</span>
+            <span class="stars">★★★★★</span>
+          </div>
+        </div>
+        <div class="rule"></div>
+        <p class="opinion">
+          หนังรักญี่ปุ่นสุดซึ้งที่ทำให้ร้องไห้ตั้งแต่ต้นจนจบ เรื่องราวของหญิงสาวที่ได้ยินเสียงผู้ล่วงลับ กับหนุ่มนักวางแผนงานศพ เตรียมผ้าเช็ดหน้าให้พร้อม รับรองว่าดูแล้วอยากกลับไปหาคนที่รักทันที
+        </p>
+      </div>
+      <div class="cfoot">
+        <span class="wl">ดูได้ที่:</span>
+        <span class="wb">โรงภาพยนตร์</span>
+      </div>
+    </article>
+
+    <!-- ── M2: Haunted Universities 4 ── -->
+    <article class="card">
+      <div class="poster">
+        <img src="https://sahamongkolfilm.com/wp-content/uploads/2026/04/Term-4-Haunted-Universities-4-Theme-Poster01.jpg" style="max-width: 1000px; height: 887px; margin: 0px 0px; width: 527px;transform: translateY(-90px);">
+        <span class="badge-genre">Horror / Thai</span>
+        <div class="score">IMDb 6.4</div>
+      </div>
+      <div class="cbody">
+        <div class="ctitle">Haunted Universities 4</div>
+        <div class="ctitle-th">เทอม 4</div>
+        <div class="poster-year">2026 · Horror · ไทย</div>
+        <div class="ratings">
+          <div class="ri">
+            <span class="rl">ค่าย</span>
+            <span class="rv">สหมงคลฟิล์ม</span>
+          </div>
+          <div class="ri">
+            <span class="rl">คะแนนส่วนตัว</span>
+            <span class="stars">★★★☆☆</span>
+          </div>
+        </div>
+        <div class="rule"></div>
+        <p class="opinion">
+          4 เรื่องหลอน จาก 4 ภูมิภาค ครบรสสยองขวัญแบบไทยแท้ มีทั้งน่ากลัว ตลก และมีประเด็น พาร์ทที่ดีที่สุดคือ "เรือนนางสนม" ฝีมือผู้กำกับหน้าใหม่ที่โดดเด่นมาก
+        </p>
+      </div>
+      <div class="cfoot">
+        <span class="wl">ดูได้ที่:</span>
+        <span class="wb">โรงภาพยนตร์</span>
+      </div>
+    </article>
+
+    <!-- ── M3: หลานม่า (Featured — Full Width) ── -->
+    <article class="card">
+      <div class="poster">
+        <img src="https://cms.dmpcdn.com/dara/2024/02/24/85a92370-d2fc-11ee-a34e-9f4f3f97ba32_webp_original.webp" style="max-width: 1900px; height: 887px; margin: 0px 0px; width: 527px;transform: translateY(-0px);">
+        <span class="badge-genre">Family / Drama</span>
+        <div class="score">IMDb 7.9</div>
+      </div>
+      <div class="cbody">
+        <div class="ctitle">Lahn Mah</div>
+        <div class="ctitle-th">หลานม่า · How to Make Millions Before Grandma Dies</div>
+        <div class="poster-year">2024 · Family Drama · ไทย · GDH</div>
+        <div class="ratings">
+          <div class="ri">
+            <span class="rl">นักแสดง</span>
+            <span class="rv">บิวกิ้น พุฒิพงศ์ · ยายแต๋ว อุษา เสมคำ</span>
+          </div>
+          <div class="ri">
+            <span class="rl">คะแนนส่วนตัว</span>
+            <span class="stars">★★★★★</span>
+          </div>
+        </div>
+        <div class="rule"></div>
+        <p class="opinion">
+          มาสเตอร์พีซของ GDH ที่บอกเล่าเรื่องความรักในครอบครัวได้อย่างเรียบง่ายแต่ทรงพลัง หนังมาเนิบๆ แต่หมัดฮุคหนักจนน้ำตาร่วงโดยไม่รู้ตัว ดูแล้วอยากกลับบ้านไปกอดคนที่รักทันที เป็นหนังที่ทำให้ตระหนักว่า "คนที่รอเราอยู่บ้านอาจไม่ได้อยู่รอเราตลอดไป"
+        </p>
+      </div>
+      <div class="cfoot">
+        <span class="wl">ดูได้ที่:</span>
+        <span class="wb">Netflix</span>
+        <span class="wb">GDH</span>
+      </div>
+    </article>
+
+  <article class="card">
+    <div class="poster">
+      <img src="https://images.squarespace-cdn.com/content/v1/51b3dc8ee4b051b96ceb10de/07b65cee-dddc-4eec-8d15-b1b96b381d9d/wicked-gets-a-new-trailer-for-fans-to-enjoy.jpg" width="1920" height="1080" sizes="(max-width: 640px) 100vw, (max-width: 767px) 100vw, 100vw" style="display:block;object-fit: cover; width: 100%; height: 100%; object-position: 50% 50%">
+      <span class="badge-genre">Fantasy / Musical</span>
+      <div class="score">IMDb 7.3</div>
+    </div>
+    <div class="cbody">
+      <div class="ctitle">Wicked: For Good</div>
+      <div class="ctitle-th">วิคเค็ด: ฟอร์ กู๊ด</div>
+      <div class="poster-year">2025 · Fantasy Musical · USA · Universal Pictures</div>
+      <div class="ratings">
+        <div class="ri">
+          <span class="rl">นักแสดง</span>
+          <span class="rv">Cynthia Erivo · Ariana Grande · Jonathan Bailey</span>
+        </div>
+        <div class="ri">
+          <span class="rl">คะแนนส่วนตัว</span>
+          <span class="stars">★★★★☆</span>
+        </div>
+      </div>
+      <div class="rule"></div>
+      <p class="opinion">
+      ภาคต่อที่สานต่อเรื่องราวหลังจากจุดเปลี่ยนสำคัญของ Elphaba และ Glinda ความสัมพันธ์ระหว่างทั้งสองจะถูกทดสอบท่ามกลางความขัดแย้งทางการเมืองและชะตากรรมของดินแดน Oz โดยคาดว่าจะเป็นบทสรุปที่เข้มข้นและสะเทือนอารมณ์ยิ่งกว่าภาคแรก
+      </p>
+    </div>
+    <div class="cfoot">
+      <span class="wl">ดูได้ที่:</span>
+      <span class="wb">โรงภาพยนตร์</span>
+      <span class="wb">Universal Pictures</span>
+    </div>
+  </article>
+
+
+  </div>
+</section>
+
+<div class="hdiv"><hr></div>
+
+<!-- ═══ RECOMMENDED SERIES ═══ -->
+<section class="wrap" id="series">
+  <div class="sec-head">
+    <h2 class="sec-title">ซีรี่ส์</h2>
+    <span class="sec-sub">Recommended Series</span>
+  </div>
+
+  <div class="grid">
+
+    <!-- ── S1: The Evil Lawyer ── -->
+    <article class="card">
+      <div class="poster">
+        <img src="https://media.online-station.net/images/2026/06/8a83e544478f586ce8ce3c4f626820b1.jpg" width="1920" height="1080" sizes="(max-width: 640px) 100vw, (max-width: 767px) 100vw, 100vw" style="display:block;object-fit: cover; width: 100%; height: 100%; object-position: 50% 50%">
+        <span class="badge-genre">Legal Drama / Crime</span>
+        <div class="score">IMDb 7.8</div>
+      </div>
+      <div class="cbody">
+        <div class="ctitle">The Evil Lawyer</div>
+        <div class="ctitle-th">ทนายปีศาจ</div>
+        <div class="poster-year">2026 · 8 ตอน · Netflix</div>
+        <div class="ratings">
+          <div class="ri">
+            <span class="rl">นักแสดง</span>
+            <span class="rv">หญิง รฐา · ณัฏฐ์ กิจจริต</span>
+          </div>
+          <div class="ri">
+            <span class="rl">คะแนนส่วนตัว</span>
+            <span class="stars">★★★★★</span>
+          </div>
+        </div>
+        <div class="rule"></div>
+        <p class="opinion">
+          ซีรี่ส์กฎหมายไทยที่ดีที่สุดเท่าที่เคยดูมา กล้าตีแผ่ความฟอนเฟะในระบบยุติธรรมอย่างตรงไปตรงมา คำถามที่ว่า "สู้ด้วยวิถีคนดี หรือยอมเป็นปีศาจเพื่อเอาชนะ?" ทำให้คิดตามตลอด Rotten Tomatoes 100% การันตีจากนักวิจารณ์ทั่วโลก
+        </p>
+      </div>
+      <div class="cfoot">
+        <span class="wl">ดูได้ที่:</span>
+        <span class="wb">Netflix</span>
+      </div>
+    </article>
+
+    <!-- ── S2: The Believers สาธุ ── -->
+    <article class="card">
+      <div class="poster">
+        <img src="https://m.media-amazon.com/images/M/MV5BYjUxZWI4ZDktZGYyYS00ZDQzLTliMzQtNjhiODRjNzY0MWEyXkEyXkFqcGc@._V1_QL75_UX492_.jpg" width="1920" height="1080" sizes="(max-width: 640px) 100vw, (max-width: 767px) 100vw, 100vw" style="display:block;object-fit: cover; width: 100%; height: 100%; object-position: 50% 50%">
+        <span class="badge-genre">Crime / Thriller</span>
+        <div class="score">IMDb 7.6</div>
+      </div>
+      <div class="cbody">
+        <div class="ctitle">The Believers</div>
+        <div class="ctitle-th">สาธุ</div>
+        <div class="poster-year">2024 · 8 ตอน · Netflix</div>
+        <div class="ratings">
+          <div class="ri">
+            <span class="rl">นักแสดง</span>
+            <span class="rv">เจมส์ ธีรดนย์ · พีช พชร · แอลลี่</span>
+          </div>
+          <div class="ri">
+            <span class="rl">คะแนนส่วนตัว</span>
+            <span class="stars">★★★★★</span>
+          </div>
+        </div>
+        <div class="rule"></div>
+        <p class="opinion">
+          สามเพื่อนหัวใสหันมาหากินกับวัดเพื่อใช้หนี้ ฟังดูตลกแต่ตีแผ่ประเด็นศาสนาและความศรัทธาได้ลึกและกล้ามาก ซีรี่ส์ไทยที่กล้าตั้งคำถามสิ่งที่หลายคนไม่กล้าถาม จนทะยานอันดับ 1 บน Netflix ประเทศไทย
+        </p>
+      </div>
+      <div class="cfoot">
+        <span class="wl">ดูได้ที่:</span>
+        <span class="wb">Netflix</span>
+      </div>
+    </article>
+
+    <!-- ── S3: The Penthouse (Featured — Full Width) ── -->
+    <article class="card">
+      <div class="poster">
+        <img src="https://beam-images.warnermediacdn.com/BEAM_LWM_DELIVERABLES/095dad8d-abf2-4224-9ee3-77f80509d969/2f33ec8a-7cc8-11ef-a6a5-0afff2079c59?host=wbd-images.prod-vod.h264.io&partner=beamcom&w=1024" width="1920" height="1080" sizes="(max-width: 640px) 100vw, (max-width: 767px) 100vw, 100vw" style="display:block;object-fit: cover; width: 100%; height: 100%; object-position: 50% 50%">
+        <span class="badge-genre">Korean Drama / Thriller</span>
+        <div class="score">IMDb 7.9</div>
+      </div>
+      <div class="cbody">
+        <div class="ctitle">The Penthouse: war in life</div>
+        <div class="ctitle-th">เดอะ เพ้นท์เฮ้าส์ — สงครามเหนือจุดสูงสุด</div>
+        <div class="poster-year">2020–2021 · 3 ซีซั่น · เกาหลี</div>
+        <div class="ratings">
+          <div class="ri">
+            <span class="rl">ซีซั่น</span>
+            <span class="rv">3 ซีซั่น</span>
+          </div>
+          <div class="ri">
+            <span class="rl">คะแนนส่วนตัว</span>
+            <span class="stars">★★★★★</span>
+          </div>
+        </div>
+        <div class="rule"></div>
+        <p class="opinion">
+          ซีรี่ส์เกาหลีที่ดราม่าหนักที่สุดในชีวิต เรื่องราวของผู้หญิง 3 คนบนเพ้นท์เฮ้าส์ 100 ชั้นย่านคังนัม ที่พร้อมทำทุกอย่างเพื่อสถานะและความสำเร็จ พล็อตบิดทุกตอน ดูจบแต่ละตอนอยากรู้ตอนต่อไปทันที แทบวางไม่ลง
+        </p>
+      </div>
+      <div class="cfoot">
+        <span class="wl">ดูได้ที่:</span>
+        <span class="wb">Viu</span>
+        <span class="wb">ONE HD</span>
+        <span class="wb">Netflix</span>
+      </div>
+    </article>
+
+  </div>
+</section>
+
+<!-- ═══ FOOTER ═══ -->
+<footer>
+  <div class="flogo">[ Movie Review ]</div>
+  <p class="ftext">ภาพยนตร์และซีรี่ส์ของฉัน &nbsp;·&nbsp; รีวิวส่วนตัว &nbsp;·&nbsp; 2026</p>
+</footer>
+</body>
+</html>
