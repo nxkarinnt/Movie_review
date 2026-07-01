@@ -22,7 +22,7 @@ const io = new IntersectionObserver((entries) => {
   entries.forEach(e => {
     if (e.isIntersecting) {
       const siblings = [...e.target.parentElement.querySelectorAll('.card:not(.visible)')];
-      siblings.forEach((s, j) => setTimeout(() => s.classList.add('visible'), j * 100));
+      siblings.forEach((s, j) => setTimeout(() => s.classList.add('visible'), j * 200));
       io.unobserve(e.target);
     }
   });
